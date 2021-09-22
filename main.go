@@ -12,6 +12,24 @@ import (
 	"github.com/streadway/amqp"
 )
 
+func main(){
+
+
+      listen,err := net.Listen("tcp",":80")
+      if err != nil {
+              fmt.Println("listen failed, err:", err)
+              return
+      }
+      for {
+              conn,err:=listen.Accept()
+              if err != nil {
+                      fmt.Println("accept failed, err:", err)
+                      continue
+              }
+              fmt.Println("已连接到",conn.RemoteAddr().String())
+              go process(conn)
+      }
+}
 type Session struct {
 	name            string
 	logger          *log.Logger
@@ -40,6 +58,49 @@ var (
 	errAlreadyClosed = errors.New("already closed: not connected to the server")
 	errShutdown      = errors.New("session is shutting down")
 )
+func process(conn net.Conn){
+        defer conn.Close() // 关闭连接
+        hhy := user{"97815","韩浩源"}
+        ywp := user{"97913","杨婉平"}
+        userDB := make(map[string]string)
+        userDB[hhy.code]=hhy.username
+        userDB[ywp.code]=ywp.username
+        userInput:=netRead(conn)
+        CurrUsername, ok :=userDB [userInput]
+        if ok{
+                inputInfo := strings.Trim("您已成功连接 :" + CurrUsername, "\r\n")
+                _, err := conn.Write([]byte(inputInfo)) // 发送数据
+                if err != nil {
+                        return
+                }
+        }else {
+                inputInfo := strings.Trim("您已成功连接，陌生人", "\r\n")
+                _, err := conn.Write([]byte(inputInfo)) // 发送数据
+                if err != nil {
+                        return
+                }
+        }
+         addr := "amqp://admin:admin@1.117.233.210:5672/"
+        rabbitmq_conn, err := amqp.Dial(addr)
+        failOnError(err, "Failed to connect to RabbitMQ")
+        defer rabbitmq_conn.Close()
+        name := "job_queue"
+        queue := New(name, addr)
+        // Attempt to push a message every 2 seconds
+        for {
+		userInput:=netRead(conn)
+  		message := []byte(userInput)
+	       if err := queue.Push(message); err != nil {
+                       fmt.Printf("Push failed: %s\n", err)
+                } else {
+                        fmt.Println("Push succeeded!")
+                }
+ 
+	}
+
+		
+
+}
 
 func New(name string, addr string) *Session {
 	session := Session{
@@ -271,80 +332,9 @@ func netRead(conn net.Conn) string {
 	recvStr := string(buf[:n-2])
 	return  recvStr
 }
-
-func process(conn net.Conn){
-	defer conn.Close() // 关闭连接
-	//-----------用户验证-------
-	hhy := user{"97815","韩浩源"}
-	ywp := user{"97913","杨婉平"}
-	userDB := make(map[string]string)
-	userDB[hhy.code]=hhy.username
-	userDB[ywp.code]=ywp.username
-	userInput:=netRead(conn)
-	CurrUsername, ok :=userDB [userInput]
-	if ok{
-		inputInfo := strings.Trim("您已成功连接 :" + CurrUsername, "\r\n")
-		_, err := conn.Write([]byte(inputInfo)) // 发送数据
-		if err != nil {
-			return
-		}
-	}else {
-		inputInfo := strings.Trim("您已成功连接，陌生人", "\r\n")
-		_, err := conn.Write([]byte(inputInfo)) // 发送数据
-		if err != nil {
-			return
-		}
-	}
-
-
-
-
-
-
-
-
-}
 func failOnError(err error, msg string) {
     if err != nil {
         log.Fatalf("%s: %s", msg, err)
     }
 }
 
-
-
-func main(){
-
-
-//	listen,err := net.Listen("tcp",":80")
-//	if err != nil {
-//		fmt.Println("listen failed, err:", err)
-//		return
-//	}
-//	for {
-//		conn,err:=listen.Accept()
-//		if err != nil {
-//			fmt.Println("accept failed, err:", err)
-//			continue
-//		}
-//		fmt.Println("已连接到",conn.RemoteAddr().String())
-//		go process(conn)
-//	}
-	addr := "amqp://admin:admin@1.117.233.210:5672/"
-	conn, err := amqp.Dial(addr)
-        failOnError(err, "Failed to connect to RabbitMQ")
-        defer conn.Close()
-	name := "job_queue"
-	queue := New(name, addr)
-	message := []byte("Hello world")
-	// Attempt to push a message every 2 seconds
-	for {
-		time.Sleep(time.Second * 3)
-		if err := queue.Push(message); err != nil {
-			fmt.Printf("Push failed: %s\n", err)
-		} else {
-			fmt.Println("Push succeeded!")
-		}
-	}
-
-	
-}

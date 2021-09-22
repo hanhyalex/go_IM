@@ -1,0 +1,19 @@
+已连接到 127.0.0.1:53464
+已连接到 127.0.0.1:53476
+已连接到 127.0.0.1:53494
+已连接到 107.189.14.98:38642
+已连接到 66.240.205.34:46238
+已连接到 127.0.0.1:53966
+已连接到 127.0.0.1:54318
+已连接到 58.232.22.197:52867
+已连接到 116.226.68.28:51584
+read from client failed, err: read tcp 10.0.4.12:80->116.226.68.28:51584: read: connection reset by peer
+panic: runtime error: slice bounds out of range [:-2]
+
+goroutine 21 [running]:
+main.netRead({0x515028, 0xc0000a8030})
+	/usr/local/src/First_projct/src/main/main.go:17 +0x245
+main.process({0x515028, 0xc0000a8030})
+	/usr/local/src/First_projct/src/main/main.go:29 +0x190
+created by main.main
+	/usr/local/src/First_projct/src/main/main.go:72 +0x208
