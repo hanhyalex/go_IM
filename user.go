@@ -6,4 +6,3 @@ type user struct{
 }
 
 
-

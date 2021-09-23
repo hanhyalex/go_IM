@@ -17,3 +17,533 @@ main.process({0x515028, 0xc0000a8030})
 	/usr/local/src/First_projct/src/main/main.go:29 +0x190
 created by main.main
 	/usr/local/src/First_projct/src/main/main.go:72 +0x208
+已连接到 127.0.0.1:38204
+在读取数据
+2021/09/23 10:51:12 Attempting to connect
+2021/09/23 10:51:12 Connected!
+2021/09/23 10:51:12 Setup!
+2021/09/23 10:51:16 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:51:20 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38254
+在读取数据
+2021/09/23 10:51:52 Attempting to connect
+2021/09/23 10:51:52 got 3B delivery: [1] "123"
+2021/09/23 10:51:52 got 5B delivery: [2] "\xff\xf4\xff\xfd\x06"
+2021/09/23 10:51:52 got 1B delivery: [3] "\x04"
+2021/09/23 10:51:52 got 3B delivery: [4] "123"
+2021/09/23 10:51:52 got 3B delivery: [5] "123"
+2021/09/23 10:51:52 got 2B delivery: [6] "13"
+2021/09/23 10:51:52 got 3B delivery: [7] "111"
+2021/09/23 10:51:52 got 5B delivery: [8] "\xff\xf4\xff\xfd\x06"
+2021/09/23 10:51:52 got 5B delivery: [9] "12345"
+2021/09/23 10:51:52 got 5B delivery: [10] "12345"
+Push failed: failed to push push: not connected
+客户端退出2021/09/23 10:51:52 Connected!
+2021/09/23 10:51:52 Setup!
+已连接到 127.0.0.1:38306
+在读取数据
+2021/09/23 10:52:30 Attempting to connect
+2021/09/23 10:52:31 Connected!
+2021/09/23 10:52:31 Setup!
+2021/09/23 10:52:35 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:36 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:47 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:49 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:50 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:51 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:52:51 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38348
+在读取数据
+2021/09/23 10:53:11 Attempting to connect
+2021/09/23 10:53:11 got 3B delivery: [1] "qwe"
+2021/09/23 10:53:11 got 3B delivery: [2] "asd"
+2021/09/23 10:53:11 got 3B delivery: [3] "zxc"
+2021/09/23 10:53:11 got 5B delivery: [4] "\xff\xf4\xff\xfd\x06"
+2021/09/23 10:53:11 got 1B delivery: [5] "\x04"
+2021/09/23 10:53:11 got 0B delivery: [6] ""
+2021/09/23 10:53:11 got 0B delivery: [7] ""
+2021/09/23 10:53:11 got 0B delivery: [8] ""
+Push failed: failed to push push: not connected
+客户端退出2021/09/23 10:53:11 Connected!
+2021/09/23 10:53:11 Setup!
+已连接到 127.0.0.1:38604
+已连接到 127.0.0.1:38734
+在读取数据
+2021/09/23 10:59:18 Attempting to connect
+2021/09/23 10:59:18 Connected!
+2021/09/23 10:59:18 Setup!
+2021/09/23 10:59:21 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:24 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:29 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:38 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:40 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:43 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:46 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 10:59:48 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38784
+在读取数据
+2021/09/23 11:00:07 Attempting to connect
+Queue Consume: %s Exception (404) Reason: "NOT_FOUND - no previously declared queue"
+2021/09/23 11:00:08 Connected!
+2021/09/23 11:00:08 Setup!
+2021/09/23 11:00:10 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:00:11 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38822
+在读取数据
+2021/09/23 11:00:29 Attempting to connect
+2021/09/23 11:00:29 got 5B delivery: [1] "hello"
+2021/09/23 11:00:29 got 12B delivery: [2] "我是你爹"
+2021/09/23 11:00:29 got 6B delivery: [3] "yyyyyy"
+2021/09/23 11:00:29 got 3B delivery: [4] "ree"
+2021/09/23 11:00:29 got 4B delivery: [5] "xxxx"
+2021/09/23 11:00:29 got 7B delivery: [6] "shnvcth"
+2021/09/23 11:00:29 got 5B delivery: [7] "fddch"
+2021/09/23 11:00:29 got 3B delivery: [8] "ghh"
+2021/09/23 11:00:29 Connected!
+2021/09/23 11:00:30 Setup!
+2021/09/23 11:00:34 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:00:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:00:38 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:00:41 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:00:44 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38856
+在读取数据
+2021/09/23 11:01:10 Attempting to connect
+2021/09/23 11:01:10 got 0B delivery: [1] ""
+2021/09/23 11:01:10 got 0B delivery: [2] ""
+2021/09/23 11:01:10 got 3B delivery: [3] "qqq"
+2021/09/23 11:01:10 got 7B delivery: [4] "sasvgfd"
+2021/09/23 11:01:10 got 3B delivery: [5] "fd "
+2021/09/23 11:01:10 got 4B delivery: [6] "2222"
+2021/09/23 11:01:10 got 5B delivery: [7] "-/:;)"
+2021/09/23 11:01:10 Connected!
+2021/09/23 11:01:10 Setup!
+2021/09/23 11:01:19 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38912
+在读取数据
+2021/09/23 11:01:57 Attempting to connect
+2021/09/23 11:01:58 Connected!
+2021/09/23 11:01:58 Setup!
+2021/09/23 11:02:01 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:02 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:02 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:04 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:05 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:06 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:08 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:09 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:23 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:02:26 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:38972
+在读取数据
+2021/09/23 11:02:45 Attempting to connect
+2021/09/23 11:02:46 got 0B delivery: [1] ""
+2021/09/23 11:02:46 got 1B delivery: [2] "a"
+2021/09/23 11:02:46 got 1B delivery: [3] "b"
+2021/09/23 11:02:46 got 1B delivery: [4] "c"
+2021/09/23 11:02:46 got 1B delivery: [5] "d"
+2021/09/23 11:02:46 got 1B delivery: [6] "e"
+2021/09/23 11:02:46 got 1B delivery: [7] "f"
+2021/09/23 11:02:46 got 1B delivery: [8] "g"
+2021/09/23 11:02:46 got 1B delivery: [9] "1"
+2021/09/23 11:02:46 got 1B delivery: [10] "2"
+2021/09/23 11:02:46 got 1B delivery: [11] "3"
+2021/09/23 11:02:46 got 1B delivery: [12] "g"
+2021/09/23 11:02:46 got 1B delivery: [13] "s"
+2021/09/23 11:02:46 Connected!
+2021/09/23 11:02:46 Setup!
+read from client failed, err: EOF
+客户端退出已连接到 203.159.80.44:58496
+已连接到 116.73.194.107:52748
+已连接到 117.132.183.17:47435
+已连接到 127.0.0.1:41600
+在读取数据
+2021/09/23 11:45:34 Attempting to connect
+2021/09/23 11:45:35 Connected!
+2021/09/23 11:45:35 Setup!
+2021/09/23 11:45:36 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:37 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:38 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:38 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:39 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:40 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:41 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:41 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:41 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:41 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:41 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:42 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:42 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:42 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:43 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:43 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:43 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:43 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:43 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:44 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:44 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:44 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:44 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:45 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:45 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:45 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:46 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:46 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:46 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:46 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:47 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:47 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:47 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:47 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:47 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:48 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:48 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:48 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:48 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:49 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:49 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:49 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:49 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:49 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:50 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:50 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:50 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:50 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:50 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:51 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:51 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:51 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:51 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:51 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:52 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:52 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:52 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:52 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:52 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:52 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:45:53 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:03 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:04 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:04 Push confirmed!
+Push succeeded!
+在读取数据
+2021/09/23 11:46:04 Push confirmed!
+Push succeeded!
+在读取数据
+read from client failed, err: EOF
+客户端退出已连接到 127.0.0.1:41688
+在读取数据
+2021/09/23 11:46:52 Attempting to connect
+2021/09/23 11:46:53 got 1B delivery: [1] "a"
+2021/09/23 11:46:53 got 1B delivery: [2] "a"
+2021/09/23 11:46:53 got 1B delivery: [3] "a"
+2021/09/23 11:46:53 got 1B delivery: [4] "a"
+2021/09/23 11:46:53 got 0B delivery: [5] ""
+2021/09/23 11:46:53 got 1B delivery: [6] "a"
+2021/09/23 11:46:53 got 1B delivery: [7] "a"
+2021/09/23 11:46:53 got 4B delivery: [8] "s\r\nd"
+2021/09/23 11:46:53 got 1B delivery: [9] "f"
+2021/09/23 11:46:53 got 1B delivery: [10] "f"
+2021/09/23 11:46:53 got 1B delivery: [11] "f"
+2021/09/23 11:46:53 got 1B delivery: [12] "f"
+2021/09/23 11:46:53 got 1B delivery: [13] "f"
+2021/09/23 11:46:53 got 1B delivery: [14] "f"
+2021/09/23 11:46:53 got 1B delivery: [15] "g"
+2021/09/23 11:46:53 got 1B delivery: [16] "r"
+2021/09/23 11:46:53 got 1B delivery: [17] "e"
+2021/09/23 11:46:53 got 1B delivery: [18] "s"
+2021/09/23 11:46:53 got 3B delivery: [19] "ccb"
+2021/09/23 11:46:53 got 1B delivery: [20] "b"
+2021/09/23 11:46:53 got 1B delivery: [21] "j"
+2021/09/23 11:46:53 got 1B delivery: [22] "h"
+2021/09/23 11:46:53 got 1B delivery: [23] "y"
+2021/09/23 11:46:53 got 1B delivery: [24] "t"
+2021/09/23 11:46:53 got 1B delivery: [25] "f"
+2021/09/23 11:46:53 got 1B delivery: [26] "d"
+2021/09/23 11:46:53 got 1B delivery: [27] "d"
+2021/09/23 11:46:53 got 1B delivery: [28] "c"
+2021/09/23 11:46:53 got 1B delivery: [29] "c"
+2021/09/23 11:46:53 got 1B delivery: [30] "c"
+2021/09/23 11:46:53 got 3B delivery: [31] "bbb"
+2021/09/23 11:46:53 got 1B delivery: [32] "h"
+2021/09/23 11:46:53 got 1B delivery: [33] "h"
+2021/09/23 11:46:53 got 1B delivery: [34] "h"
+2021/09/23 11:46:53 got 1B delivery: [35] "y"
+2021/09/23 11:46:53 got 1B delivery: [36] "t"
+2021/09/23 11:46:53 got 1B delivery: [37] "r"
+2021/09/23 11:46:53 got 1B delivery: [38] "e"
+2021/09/23 11:46:53 got 1B delivery: [39] "s"
+2021/09/23 11:46:53 got 0B delivery: [40] ""
+2021/09/23 11:46:53 got 1B delivery: [41] "x"
+2021/09/23 11:46:53 got 1B delivery: [42] "x"
+2021/09/23 11:46:53 got 1B delivery: [43] "c"
+2021/09/23 11:46:53 got 1B delivery: [44] "v"
+2021/09/23 11:46:53 got 1B delivery: [45] "v"
+2021/09/23 11:46:53 got 1B delivery: [46] "v"
+2021/09/23 11:46:53 got 1B delivery: [47] "h"
+2021/09/23 11:46:53 got 1B delivery: [48] "h"
+2021/09/23 11:46:53 got 1B delivery: [49] "u"
+2021/09/23 11:46:53 got 1B delivery: [50] "u"
+2021/09/23 11:46:53 got 1B delivery: [51] "u"
+2021/09/23 11:46:53 got 1B delivery: [52] "y"
+2021/09/23 11:46:53 got 1B delivery: [53] "y"
+2021/09/23 11:46:53 got 0B delivery: [54] ""
+2021/09/23 11:46:53 got 1B delivery: [55] "g"
+2021/09/23 11:46:53 got 1B delivery: [56] "g"
+2021/09/23 11:46:53 got 0B delivery: [57] ""
+2021/09/23 11:46:53 got 1B delivery: [58] "g"
+2021/09/23 11:46:53 got 1B delivery: [59] "g"
+2021/09/23 11:46:53 got 1B delivery: [60] "g"
+2021/09/23 11:46:53 got 1B delivery: [61] "g"
+2021/09/23 11:46:53 got 1B delivery: [62] "g"
+2021/09/23 11:46:53 got 1B delivery: [63] "g"
+2021/09/23 11:46:53 got 0B delivery: [64] ""
+2021/09/23 11:46:53 got 1B delivery: [65] "g"
+2021/09/23 11:46:53 got 0B delivery: [66] ""
+2021/09/23 11:46:53 got 0B delivery: [67] ""
+2021/09/23 11:46:53 got 0B delivery: [68] ""
+2021/09/23 11:46:53 got 0B delivery: [69] ""
+2021/09/23 11:46:53 got 0B delivery: [70] ""
+2021/09/23 11:46:53 got 0B delivery: [71] ""
+2021/09/23 11:46:53 got 0B delivery: [72] ""
+2021/09/23 11:46:53 got 0B delivery: [73] ""
+2021/09/23 11:46:53 Connected!
+2021/09/23 11:46:53 Setup!
+read from client failed, err: EOF
+客户端退出已连接到 46.236.189.185:52253
